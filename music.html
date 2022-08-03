@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/music.css">
+    <script src="./js/music.js"></script>
+    <title>音乐律动</title>
+</head>
+<body>
+    <audio id="audio" src="http://www.w3school.com.cn/i/song.ogg"  ></audio>
+    <div class="container">
+            <div class="invisible">
+                <img name="bg" src="./img/activity_beat_circle.png" alt="">
+            </div>
+            <div>
+                <img id="bg1" class="bg" name="bg"  src="./img/activity_beat_circle.png" alt="">
+                <img style="position:absolute;left: 65px;top: 70px; z-index: 2;" src="./img/beat_8.png" alt="">
+            </div>
+            <div>
+                <img id="bg2" class="bg" name="bg"  src="./img/activity_beat_circle.png" alt="">
+            </div>
+            <div>
+                <img id="bg3" class="bg" name="bg"  src="./img/activity_beat_circle.png" alt="">
+                <img style="position:absolute;left: 865px;top: 70px; z-index: 2;" src="./img/beat_1.png" alt="">
+            </div>
+            <div>
+                <img id="bg4" class="bg" name="bg"  src="./img/activity_beat_circle.png" alt="">
+            </div>
+    </div>
+    <div class="container2">
+        <div>
+            <img id="bg5" class="bg" name="bg"  src="./img/activity_beat_circle_little.png" alt="">
+            <img class="fruit" style="top: 40px;left:40px;" src="./img/beat_8.png" alt="">
+        </div>
+        <div>
+            <img id="bg6" class="bg" name="bg"  src="./img/activity_beat_circle_little.png" alt="">
+        </div>
+        <div>
+            <img id="bg7" class="bg" name="bg"  src="./img/activity_beat_circle_little.png" alt="">
+            <img class="fruit" style="left: 500px;top: 40px;" src="./img/beat_1.png" alt="">
+        </div>
+        <div>
+            <img id="bg8" class="bg" name="bg"  src="./img/activity_beat_circle_little.png" alt="">
+        </div>
+        <div class="invisible">
+            <img name="bg" src="" alt="">
+        </div>
+        <div class="invisible">
+            <img name="bg" src="" alt="">
+        </div>
+    </div>
+    <div class="right">
+        <div class="boardicon"></div>
+        <div class="controlicon"></div>
+        <div class="backicon"></div>
+        <div class="arrowicon"></div>
+    </div>
+    <div class="footer">
+        <div class="catalog">
+            目录
+        </div>
+        <div class="middle">
+            <button onclick="handlePlay()"><span id="displaybtn">&#9658; 播放</span></button>
+            <div class="rest">
+                <img src="./img/activity_beat_circle_little.png" alt="">
+                <span> 休息</span> 
+            </div>
+            <div class="clap">
+                <img src="./img/beat_1.png" alt="">
+                <span>拍手</span>
+            </div>
+            <div class="deskmate">
+                <div class="deskmate3">
+                    <img class="deskmate1" src="./img/beat_7.png" alt="">
+                    <img class="deskmate2" src="./img/beat_7.png" alt="">
+                </div>
+                <div class="deskmate3">
+                   <div class="highfive">
+                    <span>同桌击掌</span>
+                   </div>  
+                </div>          
+            </div>
+        </div>
+        <div class="end">
+            结束放映
+        </div>
+        <div class="page">
+            <div class="bottomleft">&lt;</div>
+            <div class="bottommid">1/12</div>
+            <div class="bottomright">&gt;</div>
+        </div>
+    </div>
+</body>
+</html>
